@@ -1,13 +1,7 @@
 require("colors");
 const { mostrarMenu } = require("./helpers/mensajes");
 const { inquirerMenu, pausa, leerInput } = require('./helpers/inquirer');
-
 const { guardarDB } = require('./helpers/guardarArchivo');
-
-//console.log(`${'M'.red}${'e'.green}${'n'.yellow}${'u'.blue}`); se concatenn las letras de la palabra 'Menu' con un color diferente
-
-//const {gurdarDB} = require('./helpers/guardarArchivo');
-
 const Tareas = require('./models/tareas');
 
 console.clear();
